@@ -1,0 +1,12 @@
+name: sport_science_muay_thai
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.11
+  - numpy
+  - pandas
+  - scipy
+  - statsmodels
+  - matplotlib
+  - jupyter
+  - pyarrow

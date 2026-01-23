@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+.envrc
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+renv/
+
+# Quarto / R Markdown
+.quarto/
+_quarto/
+*_files/
+*_cache/
+*.knit.md
+
+# macOS
+.DS_Store
+
+# Data and outputs
+/data/raw/**
+/data/external/**
+/data/private/**
+/outputs/**
+
+# Keep structure
+!/data/raw/
+!/data/raw/README.md
+!/data/external/
+!/data/external/.gitkeep
+!/data/private/
+!/data/private/.gitkeep
+!/outputs/
+!/outputs/models/
+!/outputs/models/.gitkeep
+!/outputs/reports/
+!/outputs/reports/.gitkeep
